@@ -1,0 +1,112 @@
+.one1{
+      
+      color:  rgb(0, 255, 242);
+}
+.one2{
+      background-image: linear-gradient(to right, rgb(255, 242, 0), red);
+      padding-right: 48%;
+      animation: one2 1.2s linear  infinite;
+      -webkit-animation: one2 1.2s linear  infinite;
+}
+@keyframes one2 {
+      50%{
+            background-image: linear-gradient(to right, rgb(0, 255, 242), rgb(0, 47, 255));
+            padding-right: 28%;
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(255, 242, 0), red);
+            padding-right: 48%;
+      }
+}
+.one3{
+      background-image: linear-gradient(to right, rgb(0, 255, 242), rgb(0, 47, 255));
+      padding-right:20%;
+      animation: one3 1.2s linear  infinite;
+      -webkit-animation: one3 1.2s linear  infinite;
+}
+@keyframes one3 {
+      50%{
+            background-image: linear-gradient(to right, rgb(255, 242, 0), red);
+            padding-right: 40%;
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(0, 255, 242), rgb(0, 47, 255));
+            padding-right: 20%;
+      }
+}
+.two1{
+      color: orangered;
+}
+.two2{
+      background-image: linear-gradient(to right, rgb(219, 227, 227), rgb(54, 55, 58));
+      padding-right: 35%;
+      animation: two2 2s linear  infinite;
+      -webkit-animation: two2 2s linear  infinite;
+}
+@keyframes two2 {
+      50%{
+            background-image: linear-gradient(to right, rgb(239, 4, 200), rgb(72, 240, 20));
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(219, 227, 227), rgb(54, 55, 58));
+      }
+}
+.two3{
+      background-image: linear-gradient(to right, rgb(239, 4, 200), rgb(72, 240, 20));
+      padding-right: 25%;
+      animation: two3 1.2s linear  infinite;
+      -webkit-animation: two3 2s linear  infinite;
+}
+@keyframes two3 {
+      50%{
+            background-image: linear-gradient(to right, rgb(219, 227, 227), rgb(54, 55, 58));
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(239, 4, 200), rgb(72, 240, 20));
+      }
+}
+.th1{
+      color: orangered;
+}
+.th2{
+      background-image: linear-gradient(to right, rgb(4, 239, 67), rgb(240, 20, 20));
+      padding-right: 25%;
+      animation: th2 1.2s linear  infinite;
+      -webkit-animation: th2 1.2s linear  infinite;
+}
+@keyframes th2 {
+      50%{
+            background-image: linear-gradient(to right, rgb(232, 239, 234), rgb(240, 20, 141));
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(4, 239, 67), rgb(240, 20, 20));
+      }
+}
+.th3{
+      background-image: linear-gradient(to right, rgb(232, 239, 234), rgb(240, 20, 141));
+      padding-right: 35%;
+      animation: th3 1.2s linear  infinite;
+      -webkit-animation: th3 1.2s linear  infinite;
+}
+@keyframes th3 {
+      50%{
+            background-image: linear-gradient(to right, rgb(4, 239, 67), rgb(240, 20, 20));
+      }
+      100%{
+            background-image: linear-gradient(to right, rgb(232, 239, 234), rgb(240, 20, 141));
+      }
+}
+.fr1{
+      color: rgb(0, 255, 110);
+}
+
+.fr3{
+      background-image: linear-gradient(to right, rgb(0, 255, 242), rgb(0, 47, 255));
+      padding-right: 45%;
+      animation: fr3 1.2s linear  infinite;
+      -webkit-animation: fr3 1.2s linear  infinite;
+}
+
+h1{
+      color: white;
+}

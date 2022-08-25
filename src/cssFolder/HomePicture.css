@@ -1,0 +1,14 @@
+
+.imm{
+   margin-top: 80px;
+   background-color: transparent;
+}
+
+/* .int{
+   margin-top: 110px;
+} */
+.texxt{
+   color: orangered;
+   animation: hmpics 1s ease-in-out  infinite;
+   -webkit-animation: hmpics 1s ease-in-out  infinite;
+}

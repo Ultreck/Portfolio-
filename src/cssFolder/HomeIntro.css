@@ -1,0 +1,19 @@
+.texxt{
+      color: orangered;
+}
+
+.btt{
+      box-shadow: -2px 4px  9px orangered;
+      color: #2ecc71;
+}
+.btt:hover{
+      color: white;
+}
+
+footer{
+      margin-top: 100px;
+      margin-bottom: 80px;
+}
+.ccc{
+      color: orangered;
+}

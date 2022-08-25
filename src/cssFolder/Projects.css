@@ -1,0 +1,11 @@
+.cont{
+      margin-top: 110px;
+}
+.cont h1{ 
+      position: fixed;
+      text-align: center;
+      margin-top: -55px;
+}
+::-webkit-scrollbar{
+      display: none;
+}

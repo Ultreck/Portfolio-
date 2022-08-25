@@ -1,0 +1,32 @@
+.con{
+      margin-top: 100px;
+}
+
+img{
+      z-index: 1;
+      width: 60px;
+      height: 220px;
+      /* background-color: rgba(46, 204, 113, .5); */
+}
+/* img:hover{
+      background-color: rgba(255, 69, 0, .4);
+
+} */
+.car{
+      background-color: transparent;
+      box-shadow: -2px 4px  9px orangered;
+}
+.car:hover{
+      box-shadow: -2px 4px  9px #2ecc71;
+      border: 1px solid white;
+}
+.bttn{
+      box-shadow: -2px 4px  9px #2ecc71;
+      color: orangered;
+
+}
+.bttn:hover{
+      /* box-shadow: -2px 4px  9px #2ecc71; */
+      color: white;
+
+}

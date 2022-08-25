@@ -1,0 +1,164 @@
+ul .app{
+      background-color: transparent;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+}
+li{
+      list-style-type: none;
+}
+.cpage1{
+      position: sticky;
+      top: -50px;
+}
+@media only screen and (max-width:720px) {
+    .cpage1{
+      position: relative;
+    }
+ }
+ a{
+      text-decoration: none;
+ }
+      
+ul .ulli:nth-child(1):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px blue;
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+ul .ulli:nth-child(2):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px rgb(16, 248, 16);
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+ul .ulli:nth-child(3):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px rgb(58, 55, 255);
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+ul .ulli:nth-child(4):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px  #ff65c4;;
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+ul .ulli:nth-child(5):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px rgb(38, 38, 255);
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+ul .ulli:nth-child(6):hover .app{
+      background-color: rgba(7, 7, 7, 0.6);
+      box-shadow: 0px 0px 5px 10px red;
+      text-align: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+.pink{
+      color: #e946aa;
+}
+.red{
+      color: rgb(255, 0, 21);
+}
+.green{
+      color: rgb(16, 248, 16);
+}
+form input, textarea{
+      box-shadow: -3px 4px   10px orangered;
+      border: 2px solid orangered;
+      color: white;
+      background-color: transparent;
+}
+form label{
+      transform: translateY(-40px);
+      -webkit-transform: translateY(-40px);
+      -moz-transform: translateY(-40px);
+      -ms-transform: translateY(-40px);
+      -o-transform: translateY(-40px);
+}
+.all::placeholder{
+      color: transparent;
+}
+form .all:hover{
+      border: 1px solid white;
+}
+form textarea:hover{
+      border: 1px solid white;
+}
+.all:focus{
+      box-shadow: -3px 4px   10px rgb(16, 248, 16);
+}
+textarea:focus{
+      box-shadow: -3px 4px   10px rgb(16, 248, 16);
+}
+.all:focus ~label{
+      background-color: rgba(0, 0, 0, .8);
+      text-align: center;
+      border-radius: 20px;
+      color:  orangered;
+      font-weight: bold;
+      transition: .5s;
+      transform: translateY(-65px) ;
+      -webkit-transform: translateY(-65px) ;
+      -moz-transform: translateY(-65px) ;
+      -ms-transform: translateY(-65px) ;
+      -o-transform: translateY(-65px) ;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
+.all:not(:placeholder-shown) ~ label{
+      background-color: rgba(0, 0, 0, .8);
+      text-align: center;
+      outline: none;
+      border-radius: 20px;
+      color:  rgb(16, 248, 16);
+      transition: .5s;
+      transform: translateY(-65px);
+      -webkit-transform: translateY(-65px);
+      -moz-transform: translateY(-65px);
+      -ms-transform: translateY(-65px);
+      -o-transform: translateY(-65px);
+}
+.subm button{
+      box-shadow: -3px 4px   10px rgb(16, 248, 16);
+      background-color: transparent;
+
+}
+.myresume{
+      margin-bottom: 70px;
+}
+.enddiv{
+      line-height: 20px;
+}

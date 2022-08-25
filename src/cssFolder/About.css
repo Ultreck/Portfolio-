@@ -1,0 +1,41 @@
+/* .abot{
+      background-color: orangered;
+} */
+.about{
+      margin-top: 100px;
+
+}
+img{
+      z-index: -2;
+}
+/* .aboutimg{
+      background-color: orangered;
+      opacity: .5;
+      z-index: -2;
+} */
+/* .aboutimg:hover{
+      background-color: orangered;
+      opacity: .8;
+      transition: .7;
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -webkit-transition: .7;
+      -moz-transition: .7;
+      -ms-transition: .7;
+      -o-transition: .7;
+} */
+.spa{
+      color: #2ecc71;
+}
+
+.bt{
+      box-shadow: -2px 4px  9px #2ecc71;
+      color: orangered;
+}
+.bt:hover{
+   
+      color: white;
+}
