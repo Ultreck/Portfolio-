@@ -11,14 +11,14 @@ function IntroHeader() {
       React.useEffect(() => {
         const options = {
               strings: [
-            'EMMANUEL OLUWATAYESE ADETUTU,',
+            'EMMANUEL OLUWATAYESE A.',
             'A FULL STACK WEB DEVELOPER,',
             'A BLOGER,',
             'A YOUTUBER,',
             'A DIGITAL MARKETER,',
             'A UI/UX DESIGNER.'
           ],
-          typeSpeed: 50,
+          typeSpeed: 150,
           backSpeed: 50,
           loop: true,
         };

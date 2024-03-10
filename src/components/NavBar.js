@@ -32,8 +32,7 @@ const [active, setactive] = useState()
                       </div>
 
                       {/* div that contained drop down options */}
-                      <div className="text d-flex d-md-none bar ">
-                        
+                      <div className="text d-flex d-md-none bar "> 
                         <div className="dropdown">
                           <FaBars className='text text-white d-flex d-md-none mt-1 fs-5 fw-lighter '  data-bs-toggle="dropdown" aria-expanded="false"/>
                         <ul className="dropdown-menu dropdown-menu-dark mt-4 ul">

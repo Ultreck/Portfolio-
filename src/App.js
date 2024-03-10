@@ -10,6 +10,7 @@ import Experience from './pages/Experience';
 // import NavBottomBar from './components/NavBottomBar';
 import NavBottomBar2 from './components/NavBottomBar2';
 import Projects from './pages/ProjectsPage';
+import ContactBackground from './components/ContactBackground';
 // import anime from "animejs/lib/anime.es.js";
 
 function App() {
@@ -25,6 +26,7 @@ useEffect(() => {
  <div className={data}><h3 className="text-light position-absolute text-end fs-5 fw-bolder wast">Wastro <br />Tech</h3></div>
    <NavBar data={data}/>
      {/* <PartoclesBackground/> */}
+
       <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>
@@ -33,6 +35,7 @@ useEffect(() => {
             <Route path='/contact' element={<Contact/>}></Route>
             <Route path='/projects' element={<Projects/>}></Route>
       </Routes>
+      <ContactBackground/>
       {/* <NavBottomBar setdata={setdata}/> */}
       <NavBottomBar2/>
  </>

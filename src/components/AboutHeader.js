@@ -10,15 +10,15 @@ function AboutHeader() {
      React.useEffect(() => {
        const options = {
              strings: [
-           'EMMANUEL OLUWATAYESE ADETUTU,',
+           'EMMANUEL OLUWATAYESE A.',
            'A FULL STACK WEB DEVELOPER,',
            'A BLOGER,',
            'A YOUTUBER,',
            'A DIGITAL MARKETER,',
            'A UI/UX DESIGNER.'
          ],
-         typeSpeed: 40,
-         backSpeed: 80,
+         typeSpeed: 150,
+         backSpeed: 50,
          loop: true,
        };
        
@@ -33,7 +33,7 @@ function AboutHeader() {
      })
  return (
    <div>
-      <h1 className="text col-12"> I AM <span className="text spa fw-bold"  ref={el}></span></h1>
+      <h1 className="text col-12 fs-6"> I AM  <span className="text spa fw-bold"  ref={el}></span></h1>
    </div>
  )
 }
